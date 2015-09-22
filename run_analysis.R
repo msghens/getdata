@@ -85,7 +85,7 @@ library(reshape2)
 #first version of tidy data
 tidyData <- melt(dirtydata,id=c("subject","label"))
 # Get means
-tidyData <- dcast(tidyData,... ~ variable,mean)
+tidyData <- dcast(tidyData, ... ~ variable,mean)
 
 
 write.table(tidyData,file = "tidy.txt" ,row.names = FALSE)
