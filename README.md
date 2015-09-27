@@ -1,5 +1,5 @@
-README[^1]
-==========
+README
+======
 
 This repository contains the final project for Coursera Getting and
 Cleaning Data. The project is to clean data for later analysis. Included
@@ -30,4 +30,9 @@ data import.
 
 Data required the reading of data into r-stat.
 
-[^1]: Markdown code was generated from a word document using pandoc
+Only one script is required to create Tidy data: run\_analysis.R
+
+This script requires no input to run, but to be located in directory
+that is above the data directory. The output is the file tidy.txt
+
+Data is not located in this repository.
